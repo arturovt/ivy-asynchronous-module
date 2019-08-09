@@ -1,23 +1,25 @@
-# IvyAsynchronousModule
+# Loading module asynchronously in Angular Ivy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+This small project shows an approach of how to work with asynchronous modules in Angular Ivy.
 
-## Setup
+## How to run the application?
 
-Install dependencies
+Install dependencies:
 
-```
+```console
 yarn --pure-lockfile
 ```
 
-Build production bundles
+Then build production bundles:
 
-```
+```console
 yarn build:prod
 ```
 
-Serve `dist` folder via `http-server`
+Serve `dist` folder via `http-server`:
 
-```
+```console
 yarn serve:prod
 ```
+
+![Ivy asynchronous module](./assets/ivy-asynchronous-module.gif)
